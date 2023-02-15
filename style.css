@@ -1,0 +1,73 @@
+#card
+{         
+    background-color: #638ecf;
+    padding:20px;
+    border-radius: 40px;
+    max-width: 400px;
+    
+
+}     
+
+h2{
+    display: flex;
+    font-size:30px;
+    font:bold;
+    justify-content: center;
+
+}
+h1 
+{   
+    display: flex;
+    font-size: 45px; 
+    position:relative; 
+    margin-top:5%;
+    justify-content: center;         
+} 
+
+button,#lap
+{
+    display: flex;
+    display:inline-block;
+    font-size:18px;
+    width:43%;height:48px;
+    margin:2%; color:white;
+    font-weight:bolder;
+    outline:none; border:0;
+    border-radius:5px;
+    background-color:rgba(33, 88, 60, 0.996);
+    box-shadow:0 1px 3px rgba(104, 22, 22, 0.12), 0 3px 5px rgba(20, 17, 17, 0.3);
+    cursor:pointer ;
+    outline:none;
+    transition:0.1s;
+
+    
+}
+button:hover {
+    transform: scale(1.2);
+  }
+button:active
+{
+    box-shadow:0 0 black;
+    transform:scale(0.94);
+}
+#begin
+{     
+    background-image:-webkit-linear-gradient(right,#299f8d,#5bc377);
+} 
+
+#reset 
+{     
+    background-image: -webkit-linear-gradient(left,#0e121b,#1d0b5b);   
+}     
+
+#controls 
+{         
+    margin-left: 7px;         
+    width: 310px;         height:70px;     
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    
+}
